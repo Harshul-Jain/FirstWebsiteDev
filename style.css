@@ -14,9 +14,13 @@ ul{
     list-style-type: none;
     font-size:x-large ;
 }
+li:hover{
+    cursor:pointer;
+    color: red;
+}
 /* px-static %-relative to parent vw-relative to viewport */
 nav{
-    width: 60vw;
+    width: 40vw;
     margin-top: -0.2rem;
 }
 
