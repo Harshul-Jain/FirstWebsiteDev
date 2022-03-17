@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    justify-content:space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    list-style-type: none;
+}
+/* px-static %-relative to parent vw-relative to viewport */
+nav{
+    width: 60vw;
+}
+h1{
+    width: 20%;
+}
